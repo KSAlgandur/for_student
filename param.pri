@@ -1,11 +1,11 @@
 !contains(DEFINES, __param__) {
-message("params for signal loaded");
+    message("params for signal loaded");
 
     DEFINES += __param__
 
-    HEADERS +=  $$PWD/parametrs.h
+    HEADERS +=  $$PWD/
 
-    SOURCES +=  $$PWD/
+    SOURCES +=  $$PWD/parametrs.cpp
 
     INCLUDEPATH += $$PWD/
 }
