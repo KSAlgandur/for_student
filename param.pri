@@ -3,9 +3,7 @@
 
     DEFINES += __param__
 
-    HEADERS +=  $$PWD/
-
-    SOURCES +=  $$PWD/parametrs.cpp
+    HEADERS +=  $$PWD/parametrs.hpp
 
     INCLUDEPATH += $$PWD/
 }
